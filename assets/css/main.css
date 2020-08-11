@@ -3679,9 +3679,9 @@ input, select, textarea {
 		width: 0;
 		z-index: 1;
 		right: 30px;
-		border: medium solid rgb(226, 222, 222);
+		border: medium solid whitesmoke;
 		border-width: 10px 0 10px 10px;
-		border-color: transparent transparent transparent rgb(226, 222, 222);
+		border-color: transparent transparent transparent whitesmoke;
 	}
 	
 	/* Add arrows to the right container (pointing left) */
@@ -3693,9 +3693,9 @@ input, select, textarea {
 		width: 0;
 		z-index: 1;
 		left: 30px;
-		border: medium solid rgb(226, 222, 222);
+		border: medium solid whitesmoke;
 		border-width: 10px 10px 10px 0;
-		border-color: transparent rgb(226, 222, 222) transparent transparent;
+		border-color: transparent whitesmoke transparent transparent;
 	}
 	
 	/* Fix the circle for containers on the right side */
@@ -3706,7 +3706,7 @@ input, select, textarea {
 	/* The actual content */
 	.content {
 		padding: 20px 30px;
-		background-color: rgb(226, 222, 222);
+		background-color: whitesmoke;
 		position: relative;
 		border-radius: 6px;
 		font-size: 90%;
